@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="harshadshelar.css">
+    <script src="print.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="full">
+        <!-- Corrected id without trailing space -->
+        <input type="text" id="display" size="50px" style="margin-left: 400px;"> <br><br>
+        <div id="main">
+            <button class='harshad' onclick="harsh('9')">9</button>
+            <button class='harshad' onclick="harsh('8')">8</button>
+            <button class='harshad' onclick="harsh('7')">7</button>
+            <button class='harshad' onclick="harsh('+')">+</button>
+            <br><br>
+            <button class='harshad' onclick="harsh('6')">6</button>
+            <button class='harshad' onclick="harsh('5')">5</button>
+            <button class='harshad' onclick="harsh('4')">4</button>
+            <button class='harshad' onclick="harsh('-')">-</button>
+            <br><br>
+            <button class='harshad' onclick="harsh('3')">3</button>
+            <button class='harshad' onclick="harsh('2')">2</button>
+            <button class='harshad' onclick="harsh('1')">1</button>
+            <button class='harshad' onclick="harsh('*')">*</button>
+            <br><br>
+            <button class='harshad' onclick="harsh('0')">0</button>
+            <button class='harshad' onclick="harsh('/')">/</button>
+            <button class='harshad' onclick="harsh1()">C</button>
+            <button class='harshad' onclick="calculateResult()">=</button>
+        </div>
+    </div>
+</body>
+
+</html>
+
